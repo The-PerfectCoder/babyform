@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Andy's User Form</title>
+</head>
+<body>
+<main>
+    <form action="#">
+        <div id="profile">
+            <fieldset>
+                <legend style="text-align: center;">Profile</legend>
+                <label for="name">First Name<b>*</b></label>
+                <input type="text" id="name" required>
+                <br />
+                <br />
+                <label for="surname">Surname<b>*</b></label>
+                <input type="text" id="surname" required>
+<br />
+<br />
+                <label for="email">Email<b>*</b></label>
+                <input type="email" id="email" required>
+<br />
+<br />
+                <label for="c-email">Confirm Email<b>*</b></label>
+                <input type="email" id="c-email" required>
+<br />
+<br />
+                <label for="password">Password<b>*</b></label>
+                <input type="password" id="password" required>
+<br />
+<br />
+                <label for="c-password">Confirm Password<b>*</b></label>
+                <input type="password" id="c-password" required>
+            </fieldset>
+        </div>
+
+        <div id="contact">
+            <fieldset>
+                <legend style="text-align: center;">Contact Details</legend>
+
+                <label for="address">Address<b>*</b>:</label>
+                <input type="text" id="address" required>
+                <br />
+                <br />
+                <label for="address-2">Address 2:</label>
+                <input type="text" id="address-2">
+                <br />
+                <br />
+                <label for="number">Phone Number:</label>
+                <input type="tel" id="number">
+            </fieldset>
+        </div>
+
+        <a href="" style="text-decoration: none;">
+            <input type="checkbox" name="" id="tc"> Terms & Conditions Apply
+        </a>
+
+        <div id="submit">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</main>
+<br />
+<br />
+<footer>
+    <fieldset style="text-align: center; border: none;">
+        All Rights Reserved &copy; 2022
+    </fieldset>
+</footer>
+
+</body>
+</html>
